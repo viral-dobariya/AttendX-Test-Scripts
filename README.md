@@ -27,3 +27,9 @@ python attendance_marking_test.py
 ## Version Control
 Git is used to track file changes, and GitHub
 is used to share the repository with the QA team.
+
+
+## Team Collaboration
+Test scripts are maintained using Git and GitHub.
+Team members should pull the latest changes before
+starting their work.
