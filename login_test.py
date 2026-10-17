@@ -18,6 +18,15 @@ def test_empty_login():
     print("PASS: Empty login fields are detected")
 
 
+def test_login_username_format():
+    username = "student123"
+
+    assert username.isalnum()
+
+    print("PASS: Username format is valid")
+
+
 if __name__ == "__main__":
     test_valid_login()
     test_empty_login()
+    test_login_username_format()
